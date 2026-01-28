@@ -38,6 +38,7 @@
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://3.7.59.94:8081/repository/maven-standalone/</url>
 	    </snapshotRepository>
+	</distributionManagement>
 
 	<dependencies>
 
