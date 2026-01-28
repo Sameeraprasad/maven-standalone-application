@@ -25,6 +25,19 @@
 		<maven.compiler.source>11</maven.compiler.source>
                 <maven.compiler.target>11</maven.compiler.target>
 	</properties>
+	<distributionManagement>
+	<!--
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://13.203.28.29:8081/repository/maven-web-mixed-repo/</url>
+	    </repository>
+	-->
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://3.7.59.94:8081/repository/maven-standalone/</url>
+	    </snapshotRepository>
 
 	<dependencies>
 
