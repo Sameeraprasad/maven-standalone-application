@@ -8,7 +8,7 @@ import java.util.Date;
 public class HelloWorld {
 
         public static void main(String[] args) {
-                System.out.println("Hello Welcome to Maven Build Tool !! Today Date is:  " + getLocalCurrentDate());
+                System.out.println("Hello Welcome to jenkins poll scm !! Today Date is:  " + getLocalCurrentDate());
 
         }
 
